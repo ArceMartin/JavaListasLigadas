@@ -1,0 +1,14 @@
+Las carpetas siguientes contienen las cuatro implementaciones de los diferentes tipos de listas vistos.
+En cada una de las clases se incluyen los métodos requeridos y una clase Main que implementa la lista especifica y pone a prueba sus métodos.
+La clase Main toma un argumento numerico de consola para determinar que pruebas ejecutar. El argumento puede ser un numero del 1 al 10 y cada valor manda llamar pruebas para los diferentes métodos implementados.
+
+Se incluyeron además otras clases como sus clase Nodo correspondiente a cada lista y clases excepciones para manejar los diferentes escenarios de uso.
+
+Cada carpeta incluye además un archivo make.bat para compilar y ejecutar cada programa.
+
+Desde consola se manda llamar con make.bat y el numero de prueba que se desea ejecutar.
+Ejemplo:
+
+make.bat 5
+
+Es necesesario tener instalado JDK y tener agregado la carpeta correspondiente en el path del sistema para poder llamar a java y javac.
